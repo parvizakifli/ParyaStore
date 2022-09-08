@@ -6,9 +6,6 @@
     "extends": [
         "plugin:react/recommended",
         "google",
-        "prettier",
-        "@react-native-community",
-        "plugin:prettier/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended"
        
@@ -24,8 +21,6 @@
     ],
     "rules": {
         "react/prefer-stateless-function": 2, 
-        "import/prefer-default-export": 0, 
-        "import/no-default-export": 2, 
         "@typescript-eslint/member-delimiter-style": 0, 
         "no-console": 1,
         "no-nested-ternary": 0,
