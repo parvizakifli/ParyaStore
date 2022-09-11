@@ -1,13 +1,13 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import { Items } from "screens/Items";
-import { Categories } from "screens/Categories";
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import {Items} from 'screens/Items';
+import {Categories} from 'screens/Categories';
 export const App = () => {
   return (<>
-  
     <Routes>
-      <Route path="/" element={<Items />} />
-      <Route path="/categories" element={<Categories />} />
+      dsfs
+      <Route path='/' element={<Items />} />
+      <Route path='/categories' element={<Categories />} />
     </Routes>
-  </>)
-}
+  </>);
+};
