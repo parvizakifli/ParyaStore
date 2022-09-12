@@ -30,10 +30,7 @@
     "no-shadow": "error",
     "no-self-compare": "error",
     "no-use-before-define": "error",
-    "arrow-body-style": [
-      "error",
-      "as-needed"
-    ],
+    
     "camelcase": "error",
     "default-case": "error",
     "eqeqeq": "error",
